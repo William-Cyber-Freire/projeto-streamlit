@@ -1,0 +1,18 @@
+[project]
+name = "projeto-pratico"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "William Freire"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit (>=1.51.0,<2.0.0)",
+    "pandas (>=2.3.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
